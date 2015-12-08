@@ -8,3 +8,7 @@ App.Router.map(function(){
   this.route("spam");
 	this.route("compose");
 });
+
+App.Router.reopen({
+  location: 'history'
+});
