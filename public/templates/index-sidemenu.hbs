@@ -1,0 +1,7 @@
+<div id="sideMenu">
+  <ul>
+    {{#each item in menuItems}}
+      <li>{{#link-to item.link}}{{item.title}}{{/link-to}}</li>
+    {{/each}}
+  </ul>
+</div>

@@ -1,0 +1,110 @@
+/*reset css*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font: normal 12px arial;
+}
+
+#mailApp{
+	width: 962px;
+	margin: 0px auto;
+}
+
+#header, #footer, #body{
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+
+#sideMenu{
+	width: 200px;
+	float: left;
+	background: #7ABCEC;
+}
+
+#sideMenu ul, #content ul{
+	list-style: none;
+}
+#content ul li{
+	padding:10px;
+	cursor: pointer;
+}
+#content ul li:nth-child(2n){
+	background-color: #E4E4E4;
+}
+#sideMenu ul li{
+	font: bold 20px arial;
+}
+
+#sideMenu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid #0C717B;
+	color: #333;
+}
+
+#content{
+	font: normal 12px arial;
+}
+#content ul a{
+	display: block;;
+	text-decoration: none;
+	padding: 10px;
+	color: #333;
+}
+#content ul a:nth-child(2n){
+	background-color: #E4E4E4;
+}
+.compose label{
+	width: 200px;
+	display: inline-block;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.compose div:nth-child(4) label{
+	float: left;
+	width: 204px;
+}
+.compose input{
+	font-family: arial;
+	line-height: 20px;
+	width: 400px;
+}
+.compose textarea{
+	width: 402px;
+	height: 90px;
+}
+.compose .sendBtn{
+	background: #00A9FD;
+  padding: 9px 10px;
+  font: bold 12px arial;
+  border: none;
+  width: 80px;
+	margin-left: 4px;
+}
+
+#sideMenu ul li a.active, #sideMenu ul li a.active:hover{
+	background: #0D5780;
+	color: #fff;
+}
+
+#sideMenu ul li a:hover{
+	background-color: #4A93BB;
+}
+
+#content{
+	float: left;
+	width: 760px;
+}
+
+#footer{
+	background-color: #f3f3f3;
+	color: #000;
+	padding: 5px 10px;
+}
+
+.clr{
+	clear: left;
+}

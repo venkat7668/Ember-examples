@@ -1,0 +1,7 @@
+<div id="content">
+  <ul>
+    {{#each email in model}}
+     {{#link-to 'sentmail' email.id}}Sub: {{email.sub}} | TO: {{email.to}} | CC: {{email.cc}} | BODY: {{email.body}}{{/link-to}}
+    {{/each}}
+  </ul>
+</div>

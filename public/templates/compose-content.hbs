@@ -1,0 +1,7 @@
+<div id="content" class="compose">
+  <div><label>Subject : </label> {{input type="text" value=email.sub}}</div>
+  <div> <label>TO :</label> {{input type="text" value=email.to}}</div>
+  <div><label>CC :</label> {{input type="text" value=email.cc}}</div>
+  <div><label>Body :</label> {{textarea value=email.body}}</div>
+  <div><label> </label><button {{action "sendClickHandler"}} class="sendBtn">Send</button> </div>
+</div>
