@@ -39,6 +39,10 @@ Ember.TEMPLATES["compose-content"] = Ember.Handlebars.template({"compiler":[6,">
   return buffer;
 },"useData":true});
 
+Ember.TEMPLATES["fourohfour"] = Ember.Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  data.buffer.push("<div> Route not found :(</div>\r\n");
+  },"useData":true});
+
 Ember.TEMPLATES["inbox-content"] = Ember.Handlebars.template({"1":function(depth0,helpers,partials,data) {
   var stack1, buffer = '';
   data.buffer.push("     <li>Sub: ");
